@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+📄 PDF to DOCX Converter
 
-## Project info
+A simple and efficient web application to convert PDF files to DOCX and vice-versa.
+Built with React, TypeScript, Tailwind CSS, and shadcn-ui for a modern and responsive UI.
 
-**URL**: https://lovable.dev/projects/e2b46204-a21e-423e-b743-b84b4fa5ca48
+🚀 Features
 
-## How can I edit this code?
+Upload files easily with drag & drop or file picker.
 
-There are several ways of editing your application.
+Convert between PDF ↔ DOCX in seconds.
 
-**Use Lovable**
+Download converted files instantly.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e2b46204-a21e-423e-b743-b84b4fa5ca48) and start prompting.
+View your recent conversion history.
 
-Changes made via Lovable will be committed automatically to this repo.
+Clean, responsive, and modern UI.
 
-**Use your preferred IDE**
+🛠️ Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+React + Vite – Fast frontend development
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+TypeScript – Type safety
 
-Follow these steps:
+Tailwind CSS + shadcn-ui – Styling & components
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Lucide Icons – Modern icons
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+date-fns – Date formatting
 
-# Step 3: Install the necessary dependencies.
-npm i
+⚡ Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Clone the repository:
+
+git clone https://github.com/Akashsharma81/pdftodocs_project.git
+cd pdftodocs_project
+
+
+Install dependencies:
+
+npm install
+
+
+Run development server:
+
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Build for production:
 
-**Use GitHub Codespaces**
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📦 Deployment
 
-## What technologies are used for this project?
+You can deploy this project easily on:
 
-This project is built with:
+Vercel
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Netlify
 
-## How can I deploy this project?
+Render
 
-Simply open [Lovable](https://lovable.dev/projects/e2b46204-a21e-423e-b743-b84b4fa5ca48) and click on Share -> Publish.
+Or any platform that supports React/Vite apps.
 
-## Can I connect a custom domain to my Lovable project?
+📌 Roadmap
 
-Yes, you can!
+ Support more formats (PPTX, XLSX)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+ Add authentication & user accounts
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+ Cloud storage integration (Google Drive, Dropbox)
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repo
+
+Create a new branch (feature/my-feature)
+
+Commit your changes
+
+Push & open a pull request

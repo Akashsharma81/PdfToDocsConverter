@@ -124,3 +124,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+p, h1, h2, h3, div {
+  caret-color: transparent; /* cursor line invisible */
+}
+        /* normal wrapping enable */
